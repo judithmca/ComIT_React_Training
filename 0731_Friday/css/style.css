@@ -1,0 +1,119 @@
+    /*Universal Selector*/
+    *{
+        background-color: #F5FFFA; /*Set the background color to MintCream (#F5FFFA) using hex form. */
+        color: #4B0082; /* Set the foreground color to Indigo (#4B0082) using hex form. */
+        font-size: 14pt; /* Set the font size to 14 point. */
+    }
+
+    /* Element Selector for the document body: */
+    body
+    {
+    font-family: Calibri, Californian FB, sans-serif;  /* Set the font family choices to Calibri, Californian FB, and sans-serif. */
+    margin-left: 10%; /* Set the left margin to 10%. */
+    margin-top: 3em;/* Set the top margin to 3 ems. (Note that the unit is actually "em", not "ems"!) */
+    width: 80%;  /* Set the body width to 80%. */
+    }
+    
+    /* Element Selector for level-one headings: */
+    h1{
+        font-size: 2.2em; /* Set the font size to 2.2 em. */
+        color: #4169E1; /* Set the font color to royal blue (#4169E1) using rgb form. */
+        text-transform: uppercase;/* Display the text in all upper case. */
+        letter-spacing: 3px; /* Set letter spacing to 3 pixels. */
+        margin-bottom: 0px; /* Set the bottom margin to 0 pixels. */
+    }
+    
+    /* Element Selector for level-two headings: */
+    h2{
+        color: #4169E1;/* Set the font color to royal blue (#4169E1) using the color name. */
+        margin-bottom: 0px; /* Set the bottom margin to 0 pixels. */
+        margin-top:1.5em ; /* Set the top margin to 1.5 ems. */
+    }
+    
+    /* Element Selector for level-three headings: */
+    h3{
+        font-style: italic; /* Set the text to italic. */
+        text-transform: uppercase; /* Set the text to be displayed as uppercase. */
+        margin-bottom: 0px; /* Set the bottom margin to 0 pixels. */
+    }
+    
+    /* Element Selector for paragraphs: */
+    p{
+        margin-left: 4%;/* Set the left margin to 4%. */
+        padding-top: 10px;
+
+    }
+
+    /* Element Selector for unordered lists: */
+    ul,dl{
+        margin-left: 2%; /* Set the left margin to 2%. */
+
+    }
+    
+    /* Element Selector for paragraphs and unordered lists (must be in the same selector): */
+    p, ul,dl{
+       margin-top: 0px; /* Set the top margin to 0 pixels. */
+       margin-bottom: 0px; /* Set the bottom margin to 0 pixels. */
+       width: 65%;
+    }
+
+    /* Element Selector for horizontal line: */
+    hr{
+        line-height: 4px; /* Set the height of the line to 4 pixels.*/
+        border: 3px solid #4169E1;
+        /* color: #000080; Set the color to navy (#000080) using hex form. */
+        background-color: #4169E1; /* Set the background color to royal blue (#4169E1) using hex form. */
+        margin-top: 0px;/* Set the top margin to 0 pixels. */
+        margin-bottom: 0px;/* Set the bottom margin to 0 pixels.  */
+        margin-left: 0px;
+        width: 70%;
+    }
+   
+    .job-position{
+        font-weight: bold;
+        float:left;
+        
+    }
+
+    /* .job-position::before { 
+        content: "֎";
+        color: blue;
+      } */
+
+    .job-date{
+        font-style: italic;
+        float:right;
+    }
+
+     .job-employer{
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: solid;
+
+     }
+
+     .job-employer::before{
+        content: "»";
+        padding-left: 10px;
+        color: #4169E1;
+     }
+
+     .job-location{
+        text-decoration: solid;
+        font-style: italic;
+
+     }
+
+     p ul, dl{
+         padding-left: 50px;
+         margin-left: 10px;
+     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
