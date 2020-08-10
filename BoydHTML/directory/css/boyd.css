@@ -1,0 +1,34 @@
+.top-header{
+    background-color: #22598c;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    float: right;
+    text-align: right;
+    vertical-align: middle;
+    color: #ffffff;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.bottom-footer{
+    background-color: #22598c;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    vertical-align: middle;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.top-footer{
+    background-color: #003656;
+    color: #ffffff;
+    height: 400px;
+    line-height: 400px;
+    margin-top: 65px;
+
+}
